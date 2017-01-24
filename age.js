@@ -3,6 +3,7 @@ var hours = 365*24;
 console.log("1. # hours in a year =", hours);
 
 // 2. How many minutes are in a decade
+// define constants:
 var minutesPerHour = 60;
 var hoursPerDay = 24;
 var daysPerYear = 365;
