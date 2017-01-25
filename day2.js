@@ -72,10 +72,41 @@ var finalAnswer = colors.sort().reverse().join(" cat ");
 console.log("array sorted / reversed / then CAT-joined :: ", finalAnswer);
 
 
+// FOR LOOPS
+
+for (var i=0; i<5; i++) {
+	console.log("i :: ", i);
+}
+
+// LOOK! JavaScript lets you redeclare the same variable :(
+var fruit = fruit = ["cherries", "apples", "bananas"];
+
+for (var j=0; j<fruit.length; j++) {
+	console.log("fruit", fruit[j]);
+}
+
+// write a for loop that increments by 10 each time = 10 times: 10, 20, 30 ... 100
+for (var i=0; i<101; i=i+10) {
+	console.log("i :: ", i);
+}
+console.log("done");
 
 
+// for loop that pushes the index to an array four times 
+// console.log(array) :: [0,1,2,3,?4]
+var numArray = [];
+for (var i=0; i<4; i++) {
+	numArray.push(i);
+}
+console.log("numArray :: ", numArray);
 
-
+// for loop that starts at 100 and divides by 2 each time // loops 3 times
+// console.log :: 100,50,25
+var num = 100;
+for (var i=0; i<3; i++) {
+	console.log("num :: ", num);
+	num = num/2;
+}
 
 
 
