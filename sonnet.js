@@ -6,12 +6,10 @@ var element = document.getElementById("sonnet");
 
 var sonnet = element.innerHTML;
 
-console.log(sonnet);
-
 // Find and output the starting position of the word "orphans"
 var string = "orphans";
 var startIndex = sonnet.indexOf("orphans");
-console.log("Start position of orphans = ", startIndex);
+console.log("startIndex: ", startIndex);
 
 // Output the number of characters in the sonnet
 var numChars = sonnet.length;
@@ -19,14 +17,12 @@ console.log("Number of characters in the sonnet =", numChars);
 
 // Replace the first occurance of the string "winter" with "yuletide"
 var newSonnet = sonnet.replace("winter", "yuletide");
-console.log("Sonnet with replaced word: ", newSonnet);
 
 // Replace all occurances of the string "the" with "a large"
 // Did this exactly as specified, so replaced "the" occurences, even inside other strings, 
 // and did not catch occurences of "The"
-var newSonnet = newSonnet.replace(/the/g, "a large");
-console.log("Sonnet with replaced string", newSonnet);
+var globalReplaceSonnet = newSonnet.replace(/the /g, "a large ");
 
 // Set the content of the sonnet div with the new string
-element.innerHTML = newSonnet;
+element.innerHTML = globalReplaceSonnet;
 
