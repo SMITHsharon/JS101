@@ -5,7 +5,7 @@ This is a simple class application created to demonstrate and discuss basic `Jav
 
 
 #### Class Demo Screen Grab
-![Class Demo Screen Grab](...)
+![Class Demo Screen Grab](https://raw.githubusercontent.com/SMITHsharon/JS101/screen/screens/js101%20Screen%20Grab.png)
 
 
 ### Project Specs
@@ -14,21 +14,20 @@ Various `JavaScript` coding syntax and constructs were demonstrated and discusse
 - declaring variables and assigning values
 - performing calculations using both variables and constants
 - simple string methods
-- array methods
+- simple array methods
 - chaining methods
 - `switch` statement
-- object arrays (`key: value` pairs)
+- object arrays (`key: value` pairs; declaring / accessing values / assigning values)
 - writing simple functions
-- writing to the DOM
+- writing output to the DOM
 - writing output to `console.log()`
 
-The various `JavaScript` files changed in various ways throughout class. 
-Part of the discussion was lost from the final "save". 
+The various `JavaScript` files underwent many changes throughout the class discussion, with additions and deletions. Part of the discussion was lost from the final "save". 
 
 
 ### Technologies Used
 - `html`
--`JavaScript`
+- `JavaScript`
 
 
 ### How To View The Screen 
