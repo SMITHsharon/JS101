@@ -20,7 +20,7 @@ Various `JavaScript` coding syntax and constructs were demonstrated and discusse
 - object arrays (`key: value` pairs; declaring / accessing values / assigning values)
 - writing simple functions
 - writing output to the DOM
-- writing output to `console.log()`
+- writing output to the console
 
 The various `JavaScript` files underwent many changes throughout the class discussion, with additions and deletions. Part of the discussion was lost from the final *saves*. 
 
@@ -35,7 +35,6 @@ The various `JavaScript` files underwent many changes throughout the class discu
 ```
 git clone https://github.com/SMITHsharon/JS101.git
 cd JS101
-npm install http-server -g
 http-server -p 8080
 ```
 
